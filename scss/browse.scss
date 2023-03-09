@@ -1,0 +1,87 @@
+.browse{
+    background-color: black;
+    text-align: center;
+    .rowOne{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        color: white;
+
+        .imageOne{
+            display: flex;
+            margin-top: 100px;
+            width: 450px;
+        }
+
+        .imageTwo{
+            display: flex;
+            margin-top: 100px;
+            width: 450px;
+        }
+    }
+    .rowTwo{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+       color: white;
+
+        .imageOne{
+            display: flex;
+            width: 450px;
+        }
+
+        .imageTwo{
+            display: flex;
+            width: 450px;
+        }
+    }
+    .rowThree{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        color: white;
+
+        .imageOne{
+            display: flex;
+            width: 450px;
+        }
+
+        .imageTwo{
+            display: flex;
+            width: 450px;
+        }
+    }
+    .rowFour{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        color: white;
+
+        .imageOne{
+            display: flex;
+            width: 450px;
+        }
+
+        .imageTwo{
+            display: flex;
+            width: 450px;
+        }
+    }
+    .rowFive{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;   
+
+        .imageOne{
+            display: flex;
+            width: 450px;
+            margin-bottom: 50px;
+        }
+
+        .imageTwo{
+            display: flex;
+            width: 450px;
+            margin-bottom: 50px;
+        }
+    }
+}

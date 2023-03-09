@@ -1,0 +1,14 @@
+{
+  "name": "homework-two-315",
+  "version": "1.0.0",
+  "description": "Homework Two 315",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server"
+  },
+  "author": "Tyler Goodall",
+  "license": "ISC"
+}

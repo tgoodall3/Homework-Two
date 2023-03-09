@@ -1,0 +1,135 @@
+@font-face {
+    font-family: gillsans;
+    src: url(../fonts/GillSans\ \(2\).ttc);
+}
+
+@font-face {
+    font-family: ptserifBold;
+    src: url(../fonts/PTSerif-Bold\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifBoldItalic;
+    src: url(../fonts/PTSerif-BoldItalic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifItalic;
+    src: url(../fonts/PTSerif-Italic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifReg;
+    src: url(../fonts/PTSerif-Regular\ \(1\).ttf);
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .contactContent{
+        
+    
+    }
+
+    .ImgInput{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            margin-left: -70px;
+            margin-top: 20px;
+        }
+        button{
+           margin-left: 89px;
+        }
+    }
+
+}
+
+
+.contactContent{
+    // max-width: 80%;
+    // width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0 auto;
+    // margin-top: 200px;
+    // margin-bottom: 50px;
+    
+    .header{
+        margin-left: 20px;
+        font-family: gillsans;
+        span{
+            font-size: 30px;
+            font-family: bold;
+            border-bottom: 2px black solid;
+    
+        }
+    }
+    .ImgInput{
+        margin-top: 100px;
+        display: flex;
+        .inputs{
+            
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            input{
+
+                padding: 10px;
+                width: 529px;
+                height: 60px;
+                margin-bottom: 10px;
+                background-color: #F5F5F5;
+                font-family: gillsans;
+                font-weight: bold;
+
+                ::placeholder{
+                    margin-left: 8px;
+                    
+                }
+               
+
+               
+            }
+            .message{
+                input{
+                display: flex;
+                width: 529px;
+                height: 199px;
+
+                ::placeholder{
+                    margin-left: 8px;
+                    display: flex;
+    
+                }
+            }
+        }
+        .button{
+            display: flex;
+            justify-content: left;
+            width: 529px;
+            button{
+              background-color: #8800c7;
+              border: none;
+              width: 168px;
+              height: 60px;
+              font-family: gillsans;
+              color: white;  
+            }
+            }
+    }
+    .image{
+        margin-left: 30px;
+        margin-bottom: 100px;
+        img{
+            display: flex;
+            width: 400px;
+            height: 410px;
+            object-fit: fill;
+        }
+    }
+       
+    }
+}
